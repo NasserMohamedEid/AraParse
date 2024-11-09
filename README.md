@@ -26,4 +26,6 @@ Provides real-time feedback on user responses to encourage learning and understa
     ```bash
     pip install -r requirements.txt
     ```
-4. install following libraries: 
+4. install following libraries:
+## Demo
+https://github.com/user-attachments/assets/747abdde-14c9-426f-889a-a06bea8cbca5
