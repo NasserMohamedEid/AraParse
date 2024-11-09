@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araparse</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/global.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/index.css')}}">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+</head>
+
+<body>
+    <div class="frame frame-1"></div>
+    <div class="frame frame-2"></div>
+    <div class="frame frame-3"></div>
+    <div class="frame frame-4"></div>
+    <header>
+        <img src="{{url_for('static',filename='images/pngegg.png')}}" alt="" class="header-img shape-1" />
+        <h1 class="project-name">
+            مشروع Araparse
+        </h1>
+        <img src="{{url_for('static',filename='images/pngegg.png')}}" alt="" class="header-img shape-2" />
+
+        <div class="separator-frame bottom"></div>
+    </header>
+
+    <main>
+        <div class="content">
+            <h2 class="main-title">معرب اللغة العربية</h2>
+            <div class="main-buttons">
+                <button class="main-btn" onclick="location.href='/parser'">إعرب جملة كاملة</button>
+                <button class="main-btn" onclick="location.href='/chat'">تعليم النحو</button>
+            </div>
+            <dotlottie-player src="https://lottie.host/e2c28ece-87c5-49b9-98de-6be2c65a909e/PgF6aUzJdA.json"
+                background="transparent" speed="1" style="width: 100%; height: 400px;" loop autoplay></dotlottie-player>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-frame"></div>
+        <div class="team-name-wrapper">
+            فريق العمل:
+            <span class="team-name">
+                Debian
+            </span>
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+main .main-buttons {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 767px) {
+  main .main-buttons {
+    flex-direction: column;
+  }
+}
