@@ -1,0 +1,13 @@
+transformers
+langchain
+ibm-watsonx-ai
+langchain_community
+pypdf
+ollama
+langchain-ollama
+sentence-transformers
+faiss-gpu
+langchain_ibm
+chromadb
+langchain-huggingface
+flask
