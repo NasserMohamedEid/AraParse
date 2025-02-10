@@ -183,7 +183,7 @@ def generate_grammar_explanation(question,model, history):
 def get_credentials():
     return {
         "url" : "https://eu-de.ml.cloud.ibm.com",
-        "apikey" : "Jq8P15FmG-lxwhWU0Zm5mGLVkREuDH4mqTCvy6_UHTg1"
+        "apikey" : ""
     }
 
 

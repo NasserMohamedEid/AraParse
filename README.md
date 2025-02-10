@@ -16,6 +16,7 @@ Methodology:
 Implements Retrieval-Augmented Generation (RAG) to dynamically retrieve grammar rules and examples.
 Designed for users under 16, making grammar learning easy to understand and interactive.
 Provides real-time feedback on user responses to encourage learning and understanding of Arabic grammar rules.
+Chatbot for friendly interface
 # Installation
 1. Clone this repository:
     ```bash
