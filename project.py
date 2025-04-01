@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request ,jsonify
-from challenge import output_function
-from allam import rag
+from prompt_engine import output_function
+from vector_store import generate_grammar_explanation
 import re
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
@@ -35,7 +35,7 @@ def chat():
         
         # Process the sentence if it exists
         if sentence:
-            result = rag(sentence)
+            result = generate_grammar_explanation(sentence)
             sentences = re.split(r'[.!؟]\s*', result)
             sentences = [s for s in sentences if s]  # Filter out empty entries
         else:
