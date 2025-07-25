@@ -29,4 +29,4 @@ Chatbot for friendly interface
     ```
 4. install following libraries:
 ## Demo
-[https://github.com/user-attachments/assets/747abdde-14c9-426f-889a-a06bea8cbca5]
+https://github.com/user-attachments/assets/6be71521-b07b-4629-8db3-6211430ee068
